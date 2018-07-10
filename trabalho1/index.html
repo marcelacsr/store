@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <title>Store</title>
+
+
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+</head>
+
+<body>
+
+<!-- JavaScript (Opcional) -->
+<!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+<nav class="navbar navbar-default nav-custom navbar-expand-md navbar-fixed-top">
+
+    <a class="navbar-brand" href="#">
+        <img class="logo" src="./img/logogirl.png" alt="">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li>
+                <a class="nav-link" href="#camisetas">Camisetas</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#livros">Livros</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#colecionaveis">Colecionáveis</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#decoracao">Decoração</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#acessorios" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Acessórios
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Bonés</a>
+                    <a class="dropdown-item" href="#">Chaveiros</a>
+                    <a class="dropdown-item" href="#">Mouse Pads</a>
+                </div>
+            </li>
+            <li>
+                <a class="nav-link" href="lista.html" title="Lista de componentes do trabalho I">Lista</a>
+            </li>
+            <li>
+                <a class="nav-link" href="cadastro.html" title="Trabalho II">Trabalho II</a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <img src="img/thumb.jpg" alt="..." class="img-thumbnail">
+                <a class="nav-link dropdown-toggle" href="#conta" id="contaDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="contaDropdown">
+                    <a class="dropdown-item glyphicon glyphicon-user" href="#"> Minha Conta</a>
+                    <a class="dropdown-item glyphicon glyphicon-list-alt" href="#"> Meus pedidos
+                        <span class="badge badge-secondary">2</span>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+</nav>
+
+<header class="bgimage">
+    <div class="container">
+        <div class="input-group mb-3 busca">
+            <input type="text" class="form-control" placeholder="O que você procura?" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button">Buscar</button>
+            </div>
+        </div>
+    </div>
+</header>
+<br>
+
+
+<div class="container">
+    <div class="alert alert-success" role="alert">
+        <strong>Bem vindo!</strong> Cadastre-se.
+    </div>
+    <div class="titulo-text">
+        <!--<img src="img/Banner-Faixa-Home-Nerdstore-ao-quadrado.gif" alt="">-->
+        CONFIRA OS ÚLTIMOS LANÇAMENTOS
+    </div>
+
+    <div class="card-group">
+
+        <div class="card text-center">
+            <img class="card-img-top" src="img/CANECA-CHOPP-PONEI-SALTITANTE.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">CANECA DE CHOPP PONEI SALTITANTE</h5>
+                <p class="card-text">Sinta-se na mais famosa taberna de Bri e beba o melhor hidromel com essa caneca incrível fabricada em vidro.</p>
+                <h6 class="card-text"> R$ 31,90</h6>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+            <div class="card-footer">
+                <button type="button" class="btn btn-outline-success">Compre</button>
+            </div>
+        </div>
+
+        <div class="card text-center">
+            <img class="card-img-top" src="img/LIVRO-HP-LOVECRRAFT.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">LIVRO GRANDES CONTOS H.P. LOVECRAFT</h5>
+                <p class="card-text">Grandes contos é uma obra grandiosa, com uma cuidadosa curadoria da Editora. Ao todo são 45 contos.</p>
+                <h6 class="card-text"> R$ 59,90</h6>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+            <div class="card-footer">
+                <button type="button" class="btn btn-outline-success">Compre</button>
+            </div>
+        </div>
+
+        <div class="card text-center">
+            <img class="card-img-top" src="img/ALMOFADA-INFINITE-WAR.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">ALMOFADA VELUDO VINGADORES: GUERRA INFINITA</h5>
+                <p class="card-text">A almofada que irá balancear todo o universo (ou o seu sofá...), deixando ele muito mais estiloso!</p>
+                <h6 class="card-text"> R$ 42,90</h6>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+            <div class="card-footer">
+                <button type="button" class="btn btn-outline-success">Compre</button>
+            </div>
+        </div>
+
+        <div class="card text-center">
+            <img class="card-img-top" src="img\LIVRO-ORIGEM-DAS-ESPECIES.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">LIVRO A ORIGEM DAS ESPÉCIES</h5>
+                <p class="card-text">Ainda considerado como um dos mais inovadores e desafiantes tratados biológicos já escritos.</p>
+                <h6 class="card-text"> R$ 59,90</h6>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+            <div class="card-footer">
+                <button type="button" class="btn btn-outline-success">Compre</button>
+            </div>
+        </div>
+
+        <div class="card text-center">
+            <img class="card-img-top" src="img/PORTA-CHAVES-WERE-HOME.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">PORTA CHAVES WE'RE HOME</h5>
+                <p class="card-text">Porta Chaves em acrílico. Com 03 ganchos em metal.</p>
+                <h6 class="card-text"> R$ 34,90</h6>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+            <div class="card-footer">
+                <button type="button" class="btn btn-outline-success">Compre</button>
+            </div>
+        </div>
+
+        <div class="card text-center">
+            <img class="card-img-top" src="img/LIVRO-HISTORIA-DO-MUNDO.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">LIVRO A HISTÓRIA DO MUNDO PARA QUEM TEM PRESSA</h5>
+                <p class="card-text">É um desafio e tanto resumir mais de 5 mil anos de história em apenas 200 páginas.</p>
+                <h6 class="card-text">R$ 24,90</h6>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+            <div class="card-footer">
+                <button type="button" class="btn btn-outline-success">Compre</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!--<div class="container">
+    <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+</div>-->
+<br>
+<div class="container">
+    <div class="titulo-text">
+        PRODUTOS QUE FAZEM VOCÊ...
+    </div>
+
+    <div id="produtos" class="mb-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <button class="btn btn-link"
+                            data-toggle="collapse"
+                            data-target="#level">
+                        <span class="titulo-aba">Upar um level</span>
+                    </button>
+                </h5>
+            </div>
+
+            <div id="level"
+                 class="collapse show"
+                 data-parent="#accordion">
+                <div class="card-body">
+                    <div class="row mb-2">
+                        <div class="col-lg-6">
+                            <div class="media">
+                                <img class="mr-3 social-img" src="img/1000x583-JACOB-FRYE-POP-VINYL.webp" alt="Vila do Abraão">
+                                <div class="media-body">
+                                    <h5 class="mt-0">FUNKO POP! VINYL - JACOB FRYE - ASSASSIN'S CREED SYNDICATE</h5>
+                                    <span class="texto-media-body">Funko POP! Vinyl - Jacob Frye - Assassin's Creed Syndicate.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="media">
+                                <img class="mr-3 social-img" src="img/1000x583-caneca-gamer-cogumelo-verde-1-up-e85aad.webp" alt="Lagoa Azul">
+                                <div class="media-body">
+                                    <h5 class="mt-0">CANECA GAMER 1 UP</h5>
+                                    <span class="texto-media-body">Material: porcelana; Pode ser usada no microondas; Dimensão aproximada da embalagem: 11 x 10 x 9 cm; Diâmetro da caneca: 8 cm; Capacidade: 250 ml.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="media">
+                                <img class="mr-3 social-img" src="img/600x350-ALMOFADA-PIXELCHU.webp" alt="Praia do Aventureiro">
+                                <div class="media-body">
+                                    <h5 class="mt-0">ALMOFADA PIXELCHU</h5>
+                                    <span class="texto-media-body">Demostre seu jeito Nerd de ser na decoração da sua casa! Estampada na frente com verso preto! Capa lavável com zíper.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="media">
+                                <img class="mr-3 social-img" src="img/1000x583-PORTA-COPOS-POKE.webp" alt="Lopes Mendes">
+                                <div class="media-body">
+                                    <h5 class="mt-0">PORTA COPOS POKEBOLA</h5>
+                                    <span class="texto-media-body">O kit contém 4 porta copos, cada um com uma Pokébola diferente. Feito em plástico com impressão digital e acabamento brilhante.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed"
+                            data-toggle="collapse"
+                            data-target="#poderes">
+                        <span class="titulo-aba">Ganhar super poderes</span>
+                    </button>
+                </h5>
+            </div>
+            <div id="poderes"
+                 class="collapse"
+                 data-parent="#accordion">
+                <div class="card-body">
+                    EM BREVE
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed"
+                            data-toggle="collapse"
+                            data-target="#forca">
+                        <span class="titulo-aba">Usar a força</span>
+                    </button>
+                </h5>
+            </div>
+            <div id="forca"
+                 class="collapse"
+                 data-parent="#accordion">
+                <div class="card-body">
+                    EM BREVE
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class='container'>
+    <div class="titulo-text">
+        O QUE VOCÊ ESTÁ PROCURANDO?
+    </div>
+    <div>
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<div class='container'>
+
+    <div class='row'>
+        <div class='col-md-4 col-sm-4'>
+            <a href='facebook.com'>
+                <img class="social-img" src="./img/facebook.png" alt="">
+            </a>
+        </div>
+        <div class='col-md-4 col-sm-4'>
+            <a href='instagram.com'>
+                <img class="social-img" src="./img/insta.png" alt="">
+            </a>
+        </div>
+        <div class='col-md-4 col-sm-4'>
+            <a href='twitter.com'>
+                <img class="social-img" src="./img/twitter.png" alt="">
+            </a>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <div class='container'>
+
+        <div class='row'>
+
+
+            <div class='col-md-4 col-sm-12'>
+                <h5>PRODUTOS</h5>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href='#'>Camisetas</a></li>
+                    <li class="list-group-item"><a href='#'>Livros</a></li>
+                    <li class="list-group-item"><a href='#'>Acessórios</a></li>
+                </ul>
+            </div>
+
+            <div class='col-md-4 col-sm-6'>
+                <h5>AJUDA E SUPORTE</h5>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href='#'>Fale Conosco</a></li>
+                    <li class="list-group-item"><a href='#'>Dúvidas</a></li>
+                    <li class="list-group-item"><a href='#'>Meu Carrinho</a></li>
+                </ul>
+            </div>
+            <div class='col-md-4 col-sm-6'>
+                <h5>CADASTRE-SE AGORA!</h5>
+                <ul class='list-unstyled'>
+                    <li><a href='#'>Clique aqui para se Cadastrar</a></li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <hr>
+        Site para fins educacionais. Feito por Marcela Ramos para a disciplina de Desenvovimento Web - 2018.1
+
+    </div>
+</footer>
+
+</body>
+</html>

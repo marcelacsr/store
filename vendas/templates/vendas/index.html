@@ -1,0 +1,14 @@
+{% extends 'vendas/base.html' %}
+
+{% load static %}
+
+{% block titulo %}Vendas{% endblock %}
+
+{% block conteudo %}
+    {{ frase }}
+    <br>
+    <a href="{% url "vendas:pagina1" %}">Página 1</a>
+    <br>
+    <br>
+    <img src="{% static 'vendas/images/celular.jpg' %}" alt="Celular">
+{% endblock %}
